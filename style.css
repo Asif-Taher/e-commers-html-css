@@ -1,0 +1,564 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+
+    --primary: #EA7173;
+    --seconday-1:#FDAA5D;
+    --text-3:#51494F; 
+    --text-1: rgba(37, 28, 35, 1);
+    
+}
+.heading-one{
+
+    width: 100%;
+    height: 40px;
+    border: 1px solid var(--text-3);
+}
+.container{
+    margin: auto 8%;   
+}
+.container-one{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+ 
+}
+.one-left{
+
+    display: flex;
+    
+}
+.one-left p{
+    margin-right: 30px;
+    color: var(--text-3);
+    font-weight: 400;
+    font-size: 14px;
+}
+.one-left p i{
+    color: var(--primary);
+    margin-right: 5px;
+}
+.one-right{
+
+    display: flex;
+}
+.one-mid p{
+    width: 169px;
+    font-weight: 700;
+    font-size: 14px;
+    color: var(--seconday-1);
+}
+.one-right{
+    display: flex;
+}
+.one-right p{
+    margin-left: 30px;
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--text-3);
+}
+.one-right p i{
+    width: 20px;
+    height: 20px;
+    color: var(--text-3);
+}
+/* Header-one code is end here */
+
+/* Header-two code is start here */
+
+.header-two{
+   
+    width: 100%;
+    height: 70px;
+}
+
+
+.work-form {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 5px;
+    width: 450px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.work-form p {
+    margin: 0;
+    padding: 10px;
+    background-color:gray;
+    color: #fff;
+    border-radius: 5px 0 0 5px;
+    cursor: pointer;
+    
+}
+
+.input-icon {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-radius: 0 5px 5px 0;
+}
+
+.btn-1 {
+    background-color: var(--primary);
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 0 5px 5px 0;
+}
+
+
+.two-right{
+    display: flex;
+}
+.two-right p{
+    margin-left: 40px;
+}
+.two-left img{
+    width: 155px;
+    height: 46px;
+}
+.container-two{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+   
+}
+/* Header-two code is end here */
+
+/* Header-three code is start here */
+.header-three{
+    width: 100%;
+    height: 52px;
+    background: var(--primary);
+    padding: 8px 0;
+}
+.container-three{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.three-left{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.three-left p{
+    padding: 10px 20px 10px 20px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+
+nav ul{
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+}
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 16px;
+}
+nav{
+    align-items: center;
+    margin-top: 7px;
+}
+nav ul li{
+    margin-left: 24px;
+}
+.btn-3{
+    padding: 10px 20px 10px 20px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+/* Header-three code is end here */
+
+
+/* Section one code is start here */
+
+.banner{
+    background-image: url(images/banner.png);
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+    margin-top: 10px;
+    width: 100%;
+ 
+}
+.sub-banner{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 150px;
+}
+.banner-left{
+
+    margin: 20% 0 0 8%;
+}
+.banner-left h4{
+    font-size: 32px;
+    font-weight: 700;
+    color: var(--seconday-1);
+    margin-top: 16px;
+
+}
+.banner-left h1{
+    color: var(--text-1);
+    margin-bottom: 16px;
+}
+.banner-left h1 span{
+    color: var(--primary);
+}
+.banner-left p{
+    margin-bottom: 16px;
+}
+.banner-left .btn{
+
+}
+.first-img{
+ margin: 80px 0 0 100px;
+ position: relative;
+}
+.first-img img{
+   width: 250px;  
+}
+.second-img{
+    position: absolute;
+    right: 320px;
+}
+.second-img img{
+   width: 200px;
+}
+.btn{
+    padding: 12px 36px 12px 36px;
+    color: #fff;
+    background-color: var(--primary);
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    font-size: 14px;
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+
+/* Section one code is end  here */
+
+/* section two code is start here */
+
+.product-first{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+    align-items: center;
+    margin: 15px 0;
+}
+
+.first-sub .btn-4{
+   background: rgba(221, 221, 221, 1);
+   padding: 5px 15px;
+   border: none;
+   outline: none;
+   font-size: 16px;
+   font-weight: 700;
+}
+.first-sub i{
+    background: rgba(221, 221, 221, 1);
+    padding: 5px 10px;
+}
+.product-card{
+    background-image: url(images/bg-card-img-1.png);
+    background-position: center;
+    background-size: cover;
+    height: 150px;
+
+}
+.product-second{
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+  
+}
+.product-second h2{
+    font-size: 20px;
+}
+.card-img{
+    margin-top: 20px;
+    background-color: #fff;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    padding: 20px;
+}
+.product{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+.second-card{
+    background-image: url(images/bg-img-2.png);
+    background-position: center;
+    background-size: cover;
+    height: 230px;
+}
+
+
+
+.banner-container{
+    width: 84%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+.banner-card{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url(images/bg-img-2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 230px;
+    padding: 40px 30px;
+}
+.banner-btn{
+    padding: 12px;
+    color: #fff;
+    background-color: var(--primary);
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    font-size: 10px;
+    width: 100%;
+    font-weight: 700;
+    margin-top: 10px;
+}
+.banner-card-left{
+    width: 60%;
+}
+.banner-card-right{
+    width: 40%;
+}
+.banner-card-right img{
+    max-width: 100%;
+}
+
+/* section two code is end here */
+
+/* Flash sale code is start here */
+.flash-card-two{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-top: 10px
+}
+.fh-card-two-left{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.fh-card-two-left p{
+    margin-right: 10px;
+    color: var(--primary);
+}
+.fh-card-two-right{
+    display: flex;
+    justify-content: space-between;
+}
+.fh-card-two-right i{
+    color: #FDAA5D;
+}
+.flash-card{
+     padding: 10px 15px;
+    box-shadow: 5px 10px 8px #888888;
+    position: relative;
+}
+
+.flash-card-one{
+    background-color: #fff;
+    padding:  10px 30px 10px 30px;
+    position: absolute;
+    align-items: center;
+    bottom: 120px;
+    left: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.flash-card-one-img{
+    margin-left: 30px;
+   
+}
+.p-one{
+    padding-top: 20px;
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--text-3);
+}
+.flash-sale{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+.flash-card-imgs img{
+
+    width: 100%;
+}
+/* Earn money code is start here*/
+.earn-money{
+    margin-top: 50px;
+    background-image: url(images/banner.png);
+    background-position: center;
+    background-size: cover;
+    min-height: 400px;
+}
+.earn-money{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.earn-money-left{
+    width: 40%;
+   margin-left: 10%;
+}
+.earn-money-right{
+    width: 60%;
+    
+ }
+.earn-money-right img{
+   width: 500px;
+}
+.earn-money-left h1{
+    margin-top: 10px;
+}
+.earn-money-left h1 span{
+    color: var(--primary);
+}
+.earn-money-left p{
+    margin: 10px 0;
+}
+.money-btn .earn-money-btn{
+
+    background-color: gray;
+}
+/* sellers code is start here */
+.seller{
+    margin: auto 150px;
+}
+.seller-container{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+}
+.seller-card img{
+    width: 100%;
+}
+/*secturity payment code is start here */
+.security-payment{
+    background-image: url(images/banner.png);
+    background-position: center;
+    background-size: cover;
+    min-height: 300px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.payment-card h2{
+    margin-top: 10px;
+}
+.payment-card p{
+    margin-top: 10px;
+}
+.payment-card{
+  
+}
+.security-payment img{
+  width: 200px;
+}
+.payment-img{
+    margin-top: 20px;
+    background-color: #fff;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    padding: 20px;
+}
+/* footer code is start here */
+.footer{
+    background-color: rgba(30, 30, 30, 0.9);
+    min-height: 450px;
+}
+.footer-one-flex-one{
+    padding-bottom: 30px;
+}
+.footer-one-flex-one h3{
+    margin-bottom: 15px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 24px;
+}
+.footer-one-flex-one p{
+    margin-bottom: 15px;
+    color: #fff;
+    font-weight: 400;
+    font-size: 14px;
+}
+.footer-one-flex-two h3{
+    color: #fff;
+    margin-bottom: 10px;
+    font-size: 24px;
+} 
+.footer-one-flex-two p{
+    color: #fff;
+    line-height: 25px;
+}
+.footer-one{
+    display: flex;
+       padding-top: 100px;
+    justify-content: space-between;
+}
+.footer-container{
+    margin: auto 150px;
+}
+.footer-one-images{
+    margin-top: 15px;
+}
+.footer-two{
+    background-color: rgba(23, 23, 23, 1);
+    min-height: 150px;
+}
+.footer-container-flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+}
+.footer-two-f-image img{
+    width:110px;
+    background-color: white;
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+.footer-two-s-iamge img{
+
+    width: 60px;
+}
+.copyright{
+    text-align: center;
+    color: #fff;
+    padding: 40px;
+    font-size: 17px;
+}
